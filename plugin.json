@@ -1,17 +1,21 @@
 {
     "name": "OSVDiscount",
-    "type": "template",
     "namespace": "OSVDiscount",
-    "version": "1.5.0",
+    "type": "template",
+    "version": "1.6.0",
     "license": "proprietary",
-    "pluginType": "template",
-    "author": "OSV",
-    "shortDescription": "Zeigt einen Rabatt-Prozent-Banner auf der Artikeleinzelansicht an.",
-    "categories": ["template"],
-    "dependencies": {
+    "description": "Zeigt einen Rabatt-Prozent-Banner auf der Artikeleinzelansicht an.",
+    "shortDescription": {
+        "de": "Rabatt-Prozent-Banner fuer die Artikeleinzelansicht",
+        "en": "Discount percentage banner for single item view"
+    },
+    "author": "Seiffener Volkskunst eG",
+    "keywords": ["rabatt", "discount", "banner"],
+    "require": {
         "Ceres": ">=5.0.0",
         "IO": ">=5.0.0"
     },
+    "dependencies": [],
     "serviceProvider": "OSVDiscount\\Providers\\OSVDiscountServiceProvider",
     "dataProviders": [
         {
