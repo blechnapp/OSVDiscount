@@ -2,7 +2,7 @@
     "name": "OSVDiscount",
     "type": "template",
     "namespace": "OSVDiscount",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "license": "proprietary",
     "pluginType": "template",
     "author": "OSV",
@@ -12,5 +12,13 @@
         "Ceres": ">=5.0.0",
         "IO": ">=5.0.0"
     },
-    "serviceProvider": "OSVDiscount\\Providers\\OSVDiscountServiceProvider"
+    "serviceProvider": "OSVDiscount\\Providers\\OSVDiscountServiceProvider",
+    "dataProviders": [
+        {
+            "key": "OSVDiscount\\Containers\\DiscountBannerContainer",
+            "name": "OSV Rabatt-Banner",
+            "description": "Zeigt den Rabatt-Prozent-Banner an.",
+            "defaultLayoutContainer": "Ceres::SingleItem.BeforePrice"
+        }
+    ]
 }
