@@ -2,7 +2,7 @@
     "name": "OSVDiscount",
     "type": "template",
     "namespace": "OSVDiscount",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "license": "proprietary",
     "pluginType": "template",
     "author": "OSV",
