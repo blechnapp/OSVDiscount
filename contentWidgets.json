@@ -1,0 +1,12 @@
+[
+    {
+        "identifier": "OSVDiscount::DiscountBannerWidget",
+        "label": "Widget.label",
+        "previewImageURL": "",
+        "type": "static",
+        "categories": ["item"],
+        "position": 100,
+        "widgetClass": "OSVDiscount\\Widgets\\DiscountBannerWidget",
+        "searchKeyWords": ["rabatt", "discount", "banner"]
+    }
+]
